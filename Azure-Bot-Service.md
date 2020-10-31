@@ -2,7 +2,7 @@
 
 ### Build a bot with QnA Maker and Azure Bot Service
 #### 1. Intro
-Bots are a popular way to provide support through multiple communication channels.
+Bots are a popular way to provide support through multiple communication channels. When combined with Azure Bot Service, we can use QnA Maker to deliver a bot that responds intelligently to user questions over multiple communication channels.
 
 #### 2. Use cases
 Bots can be used on websites to help you use the site. On websites where we can buy something as a customer advisor. On the hotline of companies' websites, hospitals, sanitary services, police, travel agencies. These are just a few examples. Because bots can be used wherever the client needs an appropriate, individual answer on a given topic. Bots are use to provide a first-line of automated support through the full range of channels that we use to communicate. 
