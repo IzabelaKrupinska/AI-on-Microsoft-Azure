@@ -55,3 +55,6 @@ Text Analytics is about understanding and analyzing unstructured text. It covers
 Through the service we can identify language, discover sentiment, extract key phrases, and detect well-known entities from text.
 
 #### 3. How to
+To use Text Analytics API we need to create an access key. We can call the API from the testing console and make calls to API without writing a line of code. We need to formulate requests using the access key and the correct region. When creating a real product (for example about feedback) solution, we should create a solution based on several Azure components, such as Azure Queue Storage, Azure Functions, and Azure Cognitive Services. We need to create a function app from the portal to host our business logic.
+
+The price list is divided into free and standard. The prices vary widely. The detailed price list can be found: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/ .
