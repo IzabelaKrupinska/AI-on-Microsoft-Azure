@@ -1,7 +1,6 @@
 ## Azure Cognitive Language Services
 
 ### Classify and moderate text with Azure Content Moderator
-
 #### 1. Intro
 We can add text filters to ours apps and services with Microsoft Azure Content Moderator. 
 (The Content Moderator service detect potentially offensive or unwanted images too.)
@@ -25,7 +24,34 @@ We can use machine assistance to augment human moderation of environments where 
 * social media.
 
 #### 3. How to
-To use this service we need to create and subscribe to a Content Moderator resource and get the subscription key for accessing the resource. We need to select a location close to ours (In some locations this service is not available.) and pricing tier.
+To use this service we need to create and subscribe to a Content Moderator resource and get the subscription key for accessing the resource in Azure. We need to select a location close to ours (In some locations this service is not available.) and pricing tier.
 We can run task by using the API web-based testing console. We need there to specify parameters, paste subscription key into the Ocp-Apim-Subscription-Key box and leave text in place and click send. Then we will get the answer.
 
 The price list is divided into two parts: standard and free. Sometimes free (or both are not) is not available in all regions. For example, for Northern Europe: 1 transaction/second is available in the free option, and 10 in the standard option. The number of free transactions is limited to 5,000 in the free version, and in the paid: from 0 to 1 million transactions - € 0.844 per 1,000 transactions, from 1 million to 5 million transactions - € 0.633 per 1,000 transactions, from 5 million to 10 million transactions - € 0.506 per 1,000 transactions, over 10 million transactions - € 0.338 per 1,000 transactions.
+
+
+### Add conversational intelligence to our apps by using Language Understanding Intelligent Service (LUIS)
+#### 1. Intro
+LUIS is an Azure Cognitive Services API that applies custom machine-learning intelligence to a user's conversational natural-language text. LUIS uses certain aspects of the text to predict the user's overall meaning and pull out relevant detailed information. Our applications can use this information to interact with the user.
+We need an API which understand phases and meaning which might not be clear to everyone. That LUIS makes use of three specific aspects which are critical to aiding the algorithm in making comparisons and distinctions.
+* Utterances as input data to interpret.
+* User's intentions as a purpose or goal.
+* Entities as an representation of word, phrase and simply data inside the utterance that we want to extract.
+
+#### 2. Use cases
+We can use LUIS in every bots in many applications where we need to read user intent and customize tasks accordingly.
+
+#### 3. How to
+To use LUIS we need to create a resource LUIS with Language Understanding in Azure. We need select location and pricing tier. Then we can create LUIS app in the same geographic location as service. We should add intents, utterances and entities in our app and then train the model, if we need retrian too.
+
+The price list is divided into a free and standard part. Northern Europe pricing example: free version is only for text input and 5 transactions/second, and not available at all here, standard version is for 50 transactions/second, prices: € 1.265 per 1000 transactions for text requests and € 4.639 for 1000 transactions for spoken requests.
+
+
+### Discover sentiment in text with the Text Analytics API
+#### 1. Intro
+Text Analytics is about understanding and analyzing unstructured text. It covers sentiment analysis, key phrase extraction, language detection, and more. Text Analytics API is cloud-based service which provides advanced natural language processing (NLP) over raw text. The service uses a machine learning classification algorithm to generate a sentiment score between 0 and 1. Scores closer to 1 indicate positive sentiment, while scores closer to 0 indicate negative sentiment. A score close to 0.5 indicates no sentiment or a neutral statement.
+
+#### 2. Use cases
+Through the service we can identify language, discover sentiment, extract key phrases, and detect well-known entities from text.
+
+#### 3. How to
