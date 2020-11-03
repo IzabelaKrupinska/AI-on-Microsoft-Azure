@@ -44,7 +44,7 @@ We need an API which understand phases and meaning which might not be clear to e
 #### 2. Use cases
 We can use LUIS in every bots in many applications where we need to read user intent and customize tasks accordingly, for example 
 * bots on the websites of online stores, 
-* systems that help you find an interesting job after work,
+* systems that help us find an interesting job after work,
 * bots for booking systems, 
 * registration bots for patients at clinics, 
 * bots helping to choose, for example, president - in Poland something like "Latarnik Wyborczy".
