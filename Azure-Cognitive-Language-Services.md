@@ -18,10 +18,12 @@ We can use machine assistance to augment human moderation of environments where 
 * discussion boards,
 * chatbots,
 * e-commerce catalogs,
-* documents,
+* documents
+more:
 * e-mails,
 * articles reviews,
-* social media.
+* social media,
+* preparing labels (from raw text) for the NLP system.
 
 #### 3. How to
 To use this service we need to create and subscribe to a Content Moderator resource and get the subscription key for accessing the resource in Azure. We need to select a location close to ours (In some locations this service is not available.) and pricing tier.
@@ -39,7 +41,12 @@ We need an API which understand phases and meaning which might not be clear to e
 * Entities as an representation of word, phrase and simply data inside the utterance that we want to extract.
 
 #### 2. Use cases
-We can use LUIS in every bots in many applications where we need to read user intent and customize tasks accordingly.
+We can use LUIS in every bots in many applications where we need to read user intent and customize tasks accordingly, for example 
+* bots on the websites of online stores, 
+* systems that help you find an interesting job after work,
+* bots for booking systems, 
+* registration bots for patients at clinics, 
+* bots helping to choose, for example, president - in Poland something like "Latarnik Wyborczy".
 
 #### 3. How to
 To use LUIS we need to create a resource LUIS with Language Understanding in Azure. We need select location and pricing tier. Then we can create LUIS app in the same geographic location as service. We should add intents, utterances and entities in our app and then train the model, if we need retrian too.
@@ -52,9 +59,13 @@ The price list is divided into a free and standard part. Northern Europe pricing
 Text Analytics is about understanding and analyzing unstructured text. It covers sentiment analysis, key phrase extraction, language detection, and more. Text Analytics API is cloud-based service which provides advanced natural language processing (NLP) over raw text. The service uses a machine learning classification algorithm to generate a sentiment score between 0 and 1. Scores closer to 1 indicate positive sentiment, while scores closer to 0 indicate negative sentiment. A score close to 0.5 indicates no sentiment or a neutral statement.
 
 #### 2. Use cases
-Through the service we can identify language, discover sentiment, extract key phrases, and detect well-known entities from text.
+Through the service we can identify language, discover sentiment, extract key phrases, and detect well-known entities from text, usage examples:
+* analyze survey results,
+* categorize feedback in CRM systems,
+* monitor feedback in social media, 
+* searching for sensitive infromations and protect them.
 
 #### 3. How to
 To use Text Analytics API we need to create an access key. We can call the API from the testing console and make calls to API without writing a line of code. We need to formulate requests using the access key and the correct region. When creating a real product (for example about feedback) solution, we should create a solution based on several Azure components, such as Azure Queue Storage, Azure Functions, and Azure Cognitive Services. We need to create a function app from the portal to host our business logic.
 
-The price list is divided into free and standard. The prices vary widely. The detailed price list can be found: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/ .
+The price list is divided into free and standard. The prices vary widely. The detailed price list can be found here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/text-analytics/.
