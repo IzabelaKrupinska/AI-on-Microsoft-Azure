@@ -18,7 +18,8 @@ We can use machine assistance to augment human moderation of environments where 
 * discussion boards,
 * chatbots,
 * e-commerce catalogs,
-* documents
+* documents,
+
 more:
 * e-mails,
 * articles reviews,
