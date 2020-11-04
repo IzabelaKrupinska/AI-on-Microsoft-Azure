@@ -21,3 +21,14 @@ While creating the automatic bot we need Azure Subscription and Python environme
 When our bot is ready to be delivered to users, we can connect it to multiple channels; making it possible for users to interact with it through web chat, email, Microsoft Teams, and other common communication media.
 
 Price lists for QnA Maker Ai Machine Learning come in two versions: free and standard. The exact price lists can be found here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/, https://azure.microsoft.com/en-us/pricing/details/machine-learning-studio/.
+
+
+### Create a Bot with the Bot Framework Composer
+#### 1. Intro
+
+
+#### 2. Use cases
+
+
+#### 3. How to
+
