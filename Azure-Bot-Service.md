@@ -4,10 +4,7 @@
 #### 1. Intro
 Bots are a popular way to provide support through multiple communication channels. When combined with Azure Bot Service, we can use QnA Maker to deliver a bot that responds intelligently to user questions over multiple communication channels.
 
-#### 2. Use cases
-Bots can be used on websites to help you use the site. On websites where we can buy something as a customer advisor. On the hotline of companies' websites, hospitals, sanitary services, police, travel agencies. These are just a few examples. Because bots can be used wherever the client needs an appropriate, individual answer on a given topic. Bots are use to provide a first-line of automated support through the full range of channels that we use to communicate. 
-
-#### 3. How to
+#### 2. How to
 We can easily create a user support bot solution on Microsoft Azure using a combination of two core technologies:
 * QnA Maker. This cognitive service enables to create and publish a knowledge base with built-in NLP capabilities.
 * Azure Bot Service. This service provides a framework for developing, publishing, and managing bots on Azure.
@@ -33,10 +30,7 @@ With Bot Framework Composer we can quickly and easily build sophisticated conver
 * it saves time with little steps to set up environment,
 * in projects we have reusable assets in the form of JSON and Markdown files that can be bundled and packaged with a bot's source code.
 
-#### 2. Use cases
-
-
-#### 3. How to
+#### 2. How to
 We need to install the Composer - correct desktop application for our operating system (Windows, macOS, Linux) and Bot Framework Emulator and .NET Core SDK 3.1. Bot Frameork Composer is easy to use, to create a bot we need to clik on the Home screen New and enter the next necessary informations. On the Home screen we can open an existing bot on our computer, view some tutorial videos, and also examine some example bots created using the Composer. 
 
 Dialogs are one of the bot funcionality. Each dialog will contain instructions for the bot. We can use SDK and write code to implement dialog funcionality or we can use Bot Framework Composer and the visual designer and the environment without writing code. In Composer we have two types of dialogs: main dialog and a child dialog. We have various components in the dialogs: LU Recognizer - is responsible for interpreting what the user wants, based on the input, Triggers (types: Intent recognized, Unknown intent, Dialog events, Activities, Custom events) - typically contain a series of actions that are performed to satisfy the user request. 
@@ -48,3 +42,6 @@ To understand what the user means conversationally and in the proper context Com
 Interaction methods can be buttons or cards too. We can edit it in Send a response. The Bot Framework Composer offers the LUIS recognizer as a means to access the Language Understanding technology.
 
 Bot Framework Composer is free tool.
+
+### Use cases of bots
+Bots can be used on websites to help you use the site. On websites where we can buy something as a customer advisor. On the hotline of companies' websites, hospitals, sanitary services, police, travel agencies. These are just a few examples. Because bots can be used wherever the client needs an appropriate, individual answer on a given topic. Bots are use to provide a first-line of automated support through the full range of channels that we use to communicate. 
