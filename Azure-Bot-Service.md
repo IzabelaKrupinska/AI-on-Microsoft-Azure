@@ -5,7 +5,7 @@
 Bots are a popular way to provide support through multiple communication channels. When combined with Azure Bot Service, we can use QnA Maker to deliver a bot that responds intelligently to user questions over multiple communication channels.
 
 #### 2. How to
-We can easily create a user support bot solution on Microsoft Azure using a combination of two core technologies:
+We can create a user support bot solution on Microsoft Azure using a combination of two core technologies:
 * QnA Maker. This cognitive service enables to create and publish a knowledge base with built-in NLP capabilities.
 * Azure Bot Service. This service provides a framework for developing, publishing, and managing bots on Azure.
 
@@ -17,7 +17,7 @@ While creating the automatic bot we need Azure Subscription and Python environme
 
 When our bot is ready to be delivered to users, we can connect it to multiple channels; making it possible for users to interact with it through web chat, email, Microsoft Teams, and other common communication media.
 
-Price lists for QnA Maker and Machine Learning Studio come in two versions: free and standard. The exact price lists can be found here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/, https://azure.microsoft.com/en-us/pricing/details/machine-learning-studio/.
+Price lists for QnA Maker and Machine Learning Studio come in two versions: free and standard. The exact price lists can be found here: QnA Maker - https://azure.microsoft.com/en-us/pricing/details/cognitive-services/qna-maker/, Machine Learning Studio - https://azure.microsoft.com/en-us/pricing/details/machine-learning-studio/.
 
 
 ### Create a Bot with the Bot Framework Composer
