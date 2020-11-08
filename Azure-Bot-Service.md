@@ -41,7 +41,9 @@ To understand what the user means conversationally and in the proper context Com
 
 Interaction methods can be buttons or cards too. We can edit it in Send a response. The Bot Framework Composer offers the LUIS recognizer as a means to access the Language Understanding technology.
 
-Bot Framework Composer is free tool.
+Bot Framework Composer is a free tool.
 
 ### Use cases of bots
 Bots can be used on websites to help you use the site. On websites where we can buy something as a customer advisor. On the hotline of companies' websites, hospitals, sanitary services, police, travel agencies. These are just a few examples. Because bots can be used wherever the client needs an appropriate, individual answer on a given topic. Bots are use to provide a first-line of automated support through the full range of channels that we use to communicate. 
+
+We can use bots in virtually every area of life: bots for children (interactive fun), bots on the line of a medical company, when a client reports complaints and other needs, e.g. service, psychological bots, etc.
