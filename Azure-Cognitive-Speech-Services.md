@@ -2,7 +2,15 @@
 
 ### Transcribe speech input to text
 #### 1. Intro
-The Speech-to-text aspect of the Speech services, in Azure Cognitive Services, provides real-time transcription of audio streams based on machine learning and artificial intelligence. The Speech services APIs allow developers to add end-to-end, real-time speech transcription to their applications or services.
+The Speech-to-text aspect of the Speech services, in Azure Cognitive Services, provides real-time transcription of audio streams based on machine learning and artificial intelligence. The Speech services APIs allow to add end-to-end, real-time speech transcription to applications or services.
+
+We can use this service with an SDK client library or a representational state transfer (REST) API.
+
+With this Service we can:
+* provide speech-to-text transcription to improve our applications,
+* easily translate to and from multiple, supported languages,
+* perform Text-to-Speech operations that can accept text input and then output a spoken version of that text, using synthesized speech,
+* integrate with LUIS to perform entity recognition.
 
 #### 2. Use cases
 Speech services can be use in scenarios like:
