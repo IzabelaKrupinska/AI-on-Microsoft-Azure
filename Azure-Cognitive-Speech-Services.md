@@ -19,7 +19,13 @@ Speech services can be use in scenarios like:
 * customer support,
 * business intelligence,
 * media subtitling,
-* multilingual AI interactions.
+* multilingual AI interactions,
+
+more:
+* placing an order for a product,
+* write articles etc., 
+* conduct interviews.
+
 
 #### 3. How to
 To speech-to-text translation we need to create Azure Speech resource. To access our Speech Service from an application, we will need to get a subscription key that's passed with every request to authenticate the call and the endpoint that exposes our service on the network. We need to install Python and Visual Studio Code for coding.
