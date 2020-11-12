@@ -28,11 +28,15 @@ more:
 
 
 #### 3. How to
-To speech-to-text translation we need to create Azure Speech resource. To access our Speech Service from an application, we will need to get a subscription key that's passed with every request to authenticate the call and the endpoint that exposes our service on the network. We need to install Python and Visual Studio Code for coding.
+To speech-to-text translation we need to create Azure Speech resource by using the Azure portal, the Azure CLI, or the Cloud Shell. 
+
+To access our Speech Service from an application, we will need to get a subscription key that's passed with every request to authenticate the call and the endpoint that exposes our service on the network. 
+
+We need to install Python or C# and Visual Studio Code for coding.
 
 Speech-translation services are designed to target specific language-translation scenarios. 
 
-Speech Service is standard and free pricing: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/.
+Speech Service is standard and free pricing, more here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/.
 
 
 ### Synthesize Text Input to Speech
