@@ -59,7 +59,7 @@ Speech synthesis is being adopted when:
 When thinking of text-to-speech I see an app reading a book. We could use this application during work, when we have divided attention, we can do our duties and listen to books - improve our vocabulary and not feel lonely.
 
 #### 3. How to
-The process is basically the same as above. The input ise text, the output is synthesized audio played using choosen voice.
+The process is basically the same as above. The input is text, the output is synthesized audio played using choosen voice.
 
 Pricing details here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/.
 
@@ -78,7 +78,7 @@ Speech translation services are used in many scenarios today:
 * media subtitling,
 * multilingual AI interactions.
 
-We can learn languages, translate something to write an e-mail, etc.
+We can order something, take a taxi when we are in country that we don't know the language of, etc.
 
 #### 3. How to
 To use speech transaltion we need to make Speech Service recource and create a subscription to the Speech Translation API. We need the subscription keys and endpoint. We need there Python and Visual Studio Code too. After making a needed file we can use it and say something then program will send the audio to the service for translation and next we will see the response indicating the recognized text from our audio and the showing the conversion into the target language.
