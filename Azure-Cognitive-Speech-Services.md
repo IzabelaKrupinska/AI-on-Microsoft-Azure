@@ -63,7 +63,7 @@ The process is basically the same as above. The input ise text, the output is sy
 
 Pricing details here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/.
 
-### Translate speech with the speech service TO DO
+### Translate speech with the speech service
 #### 1. Intro
 Speech translation is the process by which conversational, spoken phrases are instantly translated (and spoken aloud) in a second language. Most speech translation systems derive from one or more of three base technologies: automatic speech recognition (Site Recovery), machine translation, or voice synthesis. Automatic speech recognition is performed using a neural network system trained on analyzing thousands of hours of incoming audio speech. In the speech translation world, a machine translation system is an application or service that uses machine-learning technologies to translate large amounts of text or spoken content to another supported language. 
 
