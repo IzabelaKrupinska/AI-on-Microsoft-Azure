@@ -34,7 +34,11 @@ To access our Speech Service from an application, we will need to get a subscrip
 
 We need to install Python or C# and Visual Studio Code for coding.
 
-Speech-translation services are designed to target specific language-translation scenarios. 
+After installing the required components (in case with Python) we are creating a python file with speech_config object - based on the SpeechConfig class (include information related to our subscription - key, region, endpoint, etc.)  and initializing a recognizer.
+
+Then result of the speech to text transcriptions will be displayed in the terminal window.
+
+Speech-translation services are designed to target specific language-translation scenarios. Speech languages are devided by types: speech to text, speech translation, and text to speech. Language support varies by Speech service functionality.
 
 Speech Service is standard and free pricing, more here: https://azure.microsoft.com/en-us/pricing/details/cognitive-services/speech-services/.
 
