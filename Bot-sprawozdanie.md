@@ -1,4 +1,4 @@
-## Bot dla call center firmy medycznej
+## Bot dla firmy medycznej
 
 * Sprawozdanie/raport zawierające
 * scenariusz / use case dla którego zrealizowaliście bota
