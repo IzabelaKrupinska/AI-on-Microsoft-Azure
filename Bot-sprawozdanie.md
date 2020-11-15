@@ -4,6 +4,9 @@
 * scenariusz / use case dla którego zrealizowaliście bota
 * wykonane przez Was kroki do zbudowania bota
 1. instalacja bot framework composer
+początek powitanie.
+2. Add new dialog
+HowtoMakeComplaint 
 
 * architekturę Waszego bota
 * kod + dane niezbędne do zreprodukowania Waszego bota 
