@@ -1,5 +1,7 @@
 ## Bot dla firmy medycznej
 
+https://youtu.be/ZeJjKcqm0G8
+
 * Sprawozdanie/raport zawierające
 * scenariusz / use case dla którego zrealizowaliście bota
 * wykonane przez Was kroki do zbudowania bota
