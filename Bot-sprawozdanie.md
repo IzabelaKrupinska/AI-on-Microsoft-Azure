@@ -1,5 +1,7 @@
 ## Bot dla firmy medycznej
+
 ### Use case
+
 Bot jest pomocą dla serwisu technicznego firmy medycznej (tutaj Roc Med). Firma medyczna produkuje sprzęt medyczny i odczynniki. Posiada swoje call center. Bot jest pierwszą linią pomocy dla klientów. Ma pomóc w odciążeniu pracowników od udzielania często zadawanych pytań. Bot również zbiera różne informacje i dane, które później mogą posłużyć pracownikom do wykonania kolejnego zadania. 
 
 Zadania bota:
@@ -13,8 +15,20 @@ Zadania bota:
 * Kiedy użytkownik napisze 'help' albo poda jakieś inne hasło nie związane z powyższymi scenariuszami, bot wyświetla informacje, na jakie kategorie pytań udziela odpowiedzi.
 
 ### Kroki budowania bota
+
+Korzystałam z serwisu LUIS i Bot Framework Composer.
+
 #### LUIS
 
+Kroki budowania LUIS:
+
+1. Utworzenie zasobu LUIS w Azure portal "Create a resource".
+2. Nazwanie zasobu LUISMEDY.
+3. Wybranie odpowiedniej subskrybcji (Azure dla studentów).
+4. Utworzenie nowej grupy zasobów LearnRG.
+5. Wybranie lokalizacji nabliższej mojej - west europe.
+6. Wybranie darmowej opcji LUISa. 
+7. Zachowanie kluczy. Klucz 1 był później potrzebny w Bot Framework Composer.
 <img src="Images/UserInput.PNG" width = 600> 
 
 
