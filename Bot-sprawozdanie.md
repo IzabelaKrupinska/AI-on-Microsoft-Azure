@@ -51,6 +51,15 @@ Na poniższym obrazie znajduje się okno ze stworzonymi podmiotami.
 
 
 #### Bot Framework Composer
+
+##### Instalacja
+Procedura instalacji Bot Framework Composer na Windowsie:
+1. Przygotować środowisko - zainstalować .NET Core SDK 3.1 lub najnowszą wersję, pobrać z: https://dotnet.microsoft.com/download/dotnet-core/3.1.
+2. Przygotowanie środowiska - zainstalować Bot Framework Emulator, pobrać z: https://github.com/microsoft/BotFramework-Emulator/releases/latest.
+3. Zainstalować Bot Framework Composer, pobrać z: https://aka.ms/bf-composer-download-win.
+
+
+
 * kroki budowania
 * architektura
 * kod + dane niezbędne do reprodukcji
