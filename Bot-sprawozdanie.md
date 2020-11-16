@@ -15,7 +15,7 @@ Zadania bota:
 ### Kroki budowania bota
 #### LUIS
 
-
+<img src="Images/UserInput.PNG" width = 600> 
 
 
 #### Bot Framework Composer
@@ -37,3 +37,6 @@ HowtoMakeComplaint
 https://youtu.be/ZeJjKcqm0G8
 
 Nagranie jest to DEMO mojego bota, które obrazuje środowisko Bot Framework Composer i przykładowy dialog zadziałania. W tym, krótkim filmie zostały wymienione najważniejsze elementy bota. Pokazałam scenariusz rozwiązania problemu przez bota. Klient zapytał jak złożyć reklamację i poprosił o odebranie starego UPSa. 
+
+
+### Podsumowanie
