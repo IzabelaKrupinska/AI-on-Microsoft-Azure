@@ -62,7 +62,7 @@ Procedura instalacji Bot Framework Composer na Windowsie:
 <img src="Images/luis5.png" width = 800> 
 <img src="Images/luis6.png" width = 800> 
 <img src="Images/luis7.png" width = 800> 
-<img src="Images/luis8.png" width = 800> 
+<img src="Images/luis8.png" width = 500> 
 
 * kroki budowania
 * architektura
