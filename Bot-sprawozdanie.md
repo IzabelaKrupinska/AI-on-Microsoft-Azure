@@ -63,14 +63,10 @@ Procedura instalacji Bot Framework Composer na Windowsie:
 * kroki budowania
 * architektura
 * kod + dane niezbędne do reprodukcji
-1. instalacja bot framework composer
 początek powitanie.
 2. Add new dialog
 HowtoMakeComplaint 
         
-* Video na YouTube (public/unlisted) z demo / pitch demo waszego bota (około 3 do 5 minut) i Waszym komentarzem:
-* Jaki problem rozwiązuje Was bot (scenariusz)
-* Na czym polega rozwiązanie i jak działa
 
 
 ### Nagranie
