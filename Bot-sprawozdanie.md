@@ -20,7 +20,7 @@ Korzystałam z serwisu LUIS i Bot Framework Composer.
 
 #### LUIS
 
-Kroki budowania LUIS:
+##### Utworzenie zasobu usług:
 
 1. Utworzenie zasobu LUIS w Azure portal "Create a resource".
 2. Nazwanie zasobu LUISMEDY.
@@ -29,7 +29,25 @@ Kroki budowania LUIS:
 5. Wybranie lokalizacji nabliższej mojej - west europe.
 6. Wybranie darmowej opcji LUISa. 
 7. Zachowanie kluczy. Klucz 1 był później potrzebny w Bot Framework Composer.
-<img src="Images/luis1.png" width = 600> 
+
+Na poniższym obrazie znajduje się okno LUISMEDY z kluczami.
+<img src="Images/luis1.png" width = 800> 
+
+##### Utworzenie aplikacji LUIS:
+
+Utworzenie aplikacji w tym samym geograficznym regionie, co serwis. 
+1. Zalogowanie się do LUIS https://eu.luis.ai/ jak do konta Microsoft.
+2. Utworzenie aplikacji z nazwą LUISMED.
+3. Utowrzenie odpowiednich zamiarów i podmiotów. Do zamiarów zależy podaj przykłady wejściowe. Podmiotami oznacza się odpowiednie wyrazy w przykładowych zdaniach z intencji.
+
+Na poniższym obrazie znajduje się okno ze stworzonymi zamiarami.
+<img src="Images/luis2.png" width = 800> 
+
+Na poniższym obrazie znajduje się okno ze stworzonymi podmiotami.
+<img src="Images/luis3.png" width = 800> 
+
+4. Wytrenowanie i testowanie modelu LUIS.
+5. Upublicznienie aplikacji.
 
 
 #### Bot Framework Composer
