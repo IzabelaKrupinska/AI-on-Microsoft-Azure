@@ -10,8 +10,15 @@ Zadania bota:
 * Udzielenie informacji o wykonywaniu przeglądów . --> Bot informuje, że firma stara się wykonywać przeglądy na czas i zazwyczaj dwa dni przed końcem przęglądu pracownik dzwoni do kleinta umówić się na spotkanie. Bot pyta czy uzytkownik, chce ustalić konkretną datę przeglądu. --> Jeżeli użytkownik odpowie, że tak, to bot prosi o podanie numeru klienta, numeru seryjnego aparatu oraz preferowaną datę przeglądu. Bot informuje, że w odpowiednim czasie, pracownik skontaktuje się (pracownicy dzwonią do klientów według swoich list, więc bot nie musi prosić o podanie numeru telefonu) z klientem i spróbuje dostosować się do preferencji klienta. -- Jeżeli użtkownik odpowiedział, że nie chce ustalać daty przeglądu bot informuje, żeby oczekiwać telefonu.
 * Instruowanie klienta co zrobić, gdy ten zgłasza zepsuty sprzęt peryferyjny (monitor, UPS itp. dołączany do aparatów medycznych). Bot odpowiada, że firma wyśle niezwłocznie nowy sprzęt. Prosi klienta o podanie modelu sprzętu, jego numeru seryjnego oraz numeru seryjnego aparatu, do którego był dołączony oraz numeru kleinta. Bot również prosi o podanie adresu i prosi o spakowanie starego sprzętu w opakowanie od nowego i powiadomienie firmy o tym, aby firma mogła odebrać ten stary sprzęt do utylizacji.
 * Zbieranie informacji od klienta, gdy ten zgłasza, że można odebrać stary sprzęt peryferyjny. Klient podaje: numer seryjny sprzętu, swój numer klienta oraz adres.
+* Kiedy użytkownik napisze 'help' albo poda jakieś inne hasło nie związane z powyższymi scenariuszami, bot wyświetla informacje, na jakie kategorie pytań udziela odpowiedzi.
 
 ### Kroki budowania bota
+#### LUIS
+
+
+
+
+#### Bot Framework Composer
 * kroki budowania
 * architektura
 * kod + dane niezbędne do reprodukcji
