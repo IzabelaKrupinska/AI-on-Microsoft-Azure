@@ -29,7 +29,7 @@ Kroki budowania LUIS:
 5. Wybranie lokalizacji nabliższej mojej - west europe.
 6. Wybranie darmowej opcji LUISa. 
 7. Zachowanie kluczy. Klucz 1 był później potrzebny w Bot Framework Composer.
-<img src="Images/UserInput.PNG" width = 600> 
+<img src="Images/luis1.png" width = 600> 
 
 
 #### Bot Framework Composer
