@@ -58,7 +58,11 @@ Procedura instalacji Bot Framework Composer na Windowsie:
 2. Przygotowanie środowiska - zainstalować Bot Framework Emulator, pobrać z: https://github.com/microsoft/BotFramework-Emulator/releases/latest.
 3. Zainstalować Bot Framework Composer, pobrać z: https://aka.ms/bf-composer-download-win.
 
-
+<img src="Images/luis4.png" width = 800> 
+<img src="Images/luis5.png" width = 800> 
+<img src="Images/luis6.png" width = 800> 
+<img src="Images/luis7.png" width = 800> 
+<img src="Images/luis8.png" width = 800> 
 
 * kroki budowania
 * architektura
