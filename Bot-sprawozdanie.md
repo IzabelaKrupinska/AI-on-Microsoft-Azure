@@ -88,5 +88,5 @@ Nagranie jest to DEMO mojego bota, które obrazuje środowisko Bot Framework Com
 ### Podsumowanie
 
 Uważam, że tworzenie bota to niezwykle satysfakconujące zadanie. Bot zrobiony przeze mnie spełnia moje założenia - umie wykryć jakie zapytanie pasuje do odpowiedniego dialogu i zadaje konkretne pytania. Uzyskałam to dzieki zastosowaniu LUIS.
-Oczywiście ten bot może, a nwet powinien być dalej rozwijany, można mu dodać wiele funkcji.
-Jedną z taki możliwości, jest dodanie opcji wysyłania mejla do pracownika (na wskazany, ustalony adres e-mail) z danymi uzyskanymi od użtkownika w trakcie rozmowy. Tutaj: https://microsoft.github.io/botframework-solutions/skills/samples/email/ jest opisana funkcja poczty. Myślę, że możnaby skorzystać z tego luz zaproponować jakieś inne rozwiązanie do wysyłania mejli przez bota. 
+Oczywiście ten bot może, a nawet powinien być dalej rozwijany, można mu dodać wiele funkcji.
+Jedną z taki możliwości, jest dodanie opcji wysyłania mejla do pracownika (na wskazany, ustalony adres e-mail) z danymi uzyskanymi od użytkownika w trakcie rozmowy. Tutaj: https://microsoft.github.io/botframework-solutions/skills/samples/email/ jest opisana funkcja poczty. Myślę, że możnaby skorzystać z tego lub zaproponować jakieś inne rozwiązanie do wysyłania mejli przez bota. Chciałabym w przyszłości popracować nad innymi funkcjonalnościami.
