@@ -62,16 +62,21 @@ Procedura instalacji Bot Framework Composer na Windowsie:
 ##### Kroki budowy bota w Bot Framework Composer
 1. Utworzenie nowego bota o nazwie RocMed.
 2. Dodanie dialogu powitalnego użytkownika, który wyświetla się na początku dialogu z botem.
-3. Utworzenie wyzwalaczy do obsługi sześciu zadań i 'help'.
-4. Utworzenie dialogów, które są rozpoznawane przez konretne wyzwalacze.
-
+Na poniższym rysunku przedstawiony jest dialog powitalny. 
 <img src="Images/luis4.png" width = 800> 
+3. Utworzenie wyzwalaczy do obsługi sześciu zadań i 'help'.
+Na poniższym rysunku pokazany jest wyzwalacz przekierowujący do dialogu dotyczącego pytania jak złożyć reklamację. Z prawej strony wpisane są frazy wyzwalacza. Wyzwalacze dodane są z LUISa. W panelu nawigacyjnym RocMed we właściwościach należało jako rozpoznawalny typ ustawić LUIS.
 <img src="Images/luis5.png" width = 800> 
+4. Utworzenie dialogów, które są rozpoznawane przez konretne wyzwalacze.
+Na poniższym rysunku znajduje się fragment dialogu. Po prawej stronie widać, że bot zapisuje zmienną podawaną przez użytkownika w pamięci - user.confirmed.
 <img src="Images/luis6.png" width = 800> 
+Na poniższym rysunku znajduje się jeden z dialogów, w którym wykorzystany został bloczek if/else.
 <img src="Images/luis7.png" width = 800> 
-<img src="Images/luis8.png" width = 500> 
+5. Po naciśnięciu Start Bot (pierwsze uruchomienie bota), a później Restart Bot pojawiało sie okno, w którym należało wpisać klucz główny wygenerowany przez LUIS. W taki sposób bot połączył się z utworzonym wcześniej zasobem LUIS.
+6. Testowanie dialogów
+Na poniższym rysunku znajduje się przykładowa rozmowa użtkownika z botem.
+<img src="Images/luis8.png" width = 800> 
 
-* kroki budowania
 * architektura
 * kod + dane niezbędne do reprodukcji
 początek powitanie.
