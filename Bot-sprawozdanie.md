@@ -58,6 +58,13 @@ Procedura instalacji Bot Framework Composer na Windowsie:
 2. Przygotowanie środowiska - zainstalować Bot Framework Emulator, pobrać z: https://github.com/microsoft/BotFramework-Emulator/releases/latest.
 3. Zainstalować Bot Framework Composer, pobrać z: https://aka.ms/bf-composer-download-win.
 
+
+##### Kroki budowy bota w Bot Framework Composer
+1. Utworzenie nowego bota o nazwie RocMed.
+2. Dodanie dialogu powitalnego użytkownika, który wyświetla się na początku dialogu z botem.
+3. Utworzenie wyzwalaczy do obsługi sześciu zadań i 'help'.
+4. Utworzenie dialogów, które są rozpoznawane przez konretne wyzwalacze.
+
 <img src="Images/luis4.png" width = 800> 
 <img src="Images/luis5.png" width = 800> 
 <img src="Images/luis6.png" width = 800> 
@@ -81,3 +88,7 @@ Nagranie jest to DEMO mojego bota, które obrazuje środowisko Bot Framework Com
 
 
 ### Podsumowanie
+
+Uważam, że tworzenie bota to niezwykle satysfakconujące zadanie. Bot zrobiony przeze mnie spełnia moje założenia - umie wykryć jakie zapytanie pasuje do odpowiedniego dialogu i zadaje konkretne pytania. Uzyskałam to dzieki zastosowaniu LUIS.
+Oczywiście ten bot może, a nwet powinien być dalej rozwijany, można mu dodać wiele funkcji.
+Jedną z taki możliwości, jest dodanie opcji wysyłania mejla do pracownika (na wskazany, ustalony adres e-mail) z danymi uzyskanymi od użtkownika w trakcie rozmowy. Tutaj: https://microsoft.github.io/botframework-solutions/skills/samples/email/ jest opisana funkcja poczty. Myślę, że możnaby skorzystać z tego luz zaproponować jakieś inne rozwiązanie do wysyłania mejli przez bota. 
