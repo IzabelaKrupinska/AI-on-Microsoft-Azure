@@ -75,7 +75,7 @@ Na poniższym rysunku znajduje się jeden z dialogów, w którym wykorzystany zo
 5. Po naciśnięciu Start Bot (pierwsze uruchomienie bota), a później Restart Bot pojawiało sie okno, w którym należało wpisać klucz główny wygenerowany przez LUIS. W taki sposób bot połączył się z utworzonym wcześniej zasobem LUIS.
 6. Testowanie dialogów
 Na poniższym rysunku znajduje się przykładowa rozmowa użtkownika z botem.
-<img src="Images/luis8.png" width = 800> 
+<img src="Images/luis8.png"> 
 
 * architektura
 * kod + dane niezbędne do reprodukcji        
