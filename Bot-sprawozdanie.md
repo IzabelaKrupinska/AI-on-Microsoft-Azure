@@ -77,8 +77,6 @@ Na poniższym rysunku znajduje się jeden z dialogów, w którym wykorzystany zo
 Na poniższym rysunku znajduje się przykładowa rozmowa użtkownika z botem.
 <img src="Images/luis8.png"> 
 
-* architektura
-* kod + dane niezbędne do reprodukcji        
 
 ### Nagranie
 
