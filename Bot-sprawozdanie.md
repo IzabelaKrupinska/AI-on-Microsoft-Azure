@@ -78,12 +78,7 @@ Na poniższym rysunku znajduje się przykładowa rozmowa użtkownika z botem.
 <img src="Images/luis8.png" width = 800> 
 
 * architektura
-* kod + dane niezbędne do reprodukcji
-początek powitanie.
-2. Add new dialog
-HowtoMakeComplaint 
-        
-
+* kod + dane niezbędne do reprodukcji        
 
 ### Nagranie
 
