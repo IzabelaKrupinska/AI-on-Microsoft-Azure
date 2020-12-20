@@ -32,9 +32,10 @@ Później szybko przetestowałam każdą kategorię, dodając zdjęcia, które n
 Uważam, że model radzi sobie bardzo dobrze z wykrywaniem perfum.
 Opublikowałam go i pobrałam url predykcyjne.
 <img src="Images/ai7.png" width = 800> 
-Później użyłam tego modelu w Azure Cloud Shell. Oczywiście można byłoby tego też użyć lokalnie, np. pisząc kod w Pythonie.
-Wyniki projektu poniżej:
+Projekt można dalej rozszerzać i użyć w Azure Cloud Shell lub też użyć lokalnie, np. pisząc kod w Pythonie.
+Azure Cloud Shell jest płatne, a ja wolę zostawić pieniądze na projekt.
 
 Aby, uzyskać dane trenujące należy napisać do mnie e-mail (286466@pw.edu.pl). Paczka danych jest zbyt duża, aby tutaj ją umieścić.
+Dane umieszczone w Images-Vision.
 
     
