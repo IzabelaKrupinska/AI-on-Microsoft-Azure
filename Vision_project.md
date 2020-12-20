@@ -9,7 +9,11 @@ Zadbałam o różnorodność zbioru zdjęć (zdjęcia robione pod różnym kąte
 Posiłkując się kategoriami niektórych z drogerii skategoryzowałam moje dane w trzy kategorie: orientalna, owocowa i kwiatowa.
 
 ### Kroki budowy rozwiązania
-
+https://www.customvision.ai/
+1. Create New Resource Group "CustomVisionPerfumes"
+2. Create New Resource "CustomVisionPerfumes_r"
+3. Create new project "Perfumes"
+Dodałam zdjęcia treningowe. Zbiór zawierał 576 obrazów.
 ### Architektura rozwiązania
 
 ### Kod + dane niezbędne do zreprodukowania rozwiązania
