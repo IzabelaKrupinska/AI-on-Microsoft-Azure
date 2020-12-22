@@ -29,7 +29,7 @@ Stworzyłam trzy tagi: orientalne, kwiatowe, owocowe. Wszystkie zdjęcia późni
 <img src="Images/ai2.png" width = 800> 
 
 ### Trenowanie
-Wytrenowałam model (szybkie trenowanie), dobierając wartość precision na 70% i progu na 30%.
+Wytrenowałam model (szybkie trenowanie), dobierając wartość precision na 70% i progu na 57%.
 Uzyskałam wynik poniżej:
 
 <img src="Images/ai3.png" width = 800> 
@@ -44,7 +44,7 @@ Później szybko przetestowałam każdą kategorię, dodając zdjęcia, które n
 <img src="Images/ai6.png" width = 800> 
 
 Uważam, że model radzi sobie bardzo dobrze z wykrywaniem perfum.
-Opublikowałam go i pobrałam url predykcyjne.
+Opublikowałam go i pobrałam url predykcyjne. Nie było potrzeby dotrenowywania modelu w kolejnych iteracjach.
 
 <img src="Images/ai7.png" width = 800> 
 
