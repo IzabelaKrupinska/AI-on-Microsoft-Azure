@@ -20,22 +20,33 @@ W moim przypadku do jednej kategorii należały jedne perfumy, aby rozpoznawać 
 Na stronie https://www.customvision.ai/ utworzyłam nowy projekt "Perfumes", ale najpierw utworzyłam:
 1. Resource Group "CustomVisionPerfumes"
 2. Resource "CustomVisionPerfumes_r". ( W kind należy pamiętać, żeby wybrać CoputerVision, a nie oddzielnie CustomVision.train i test, aby trenownaie i testowanie odbyło się w jednej lokalizacji i można było opublikowac model.)
+
 <img src="Images/ai.png" width = 500> 
+
 Następnie dodałam zdjęcia treningowe. Zbiór zawierał 576 obrazów. Na zdjęciach znajdowało się kilka flakonów perfum, jeden albo wcale.
 Stworzyłam trzy tagi: orientalne, kwiatowe, owocowe. Wszystkie zdjęcia później otagowałam. Było to zadanie długotrwałe.
+
 <img src="Images/ai2.png" width = 800> 
 
 ### Trenowanie
 Wytrenowałam model (szybkie trenowanie), dobierając wartość precision na 70% i progu na 30%.
 Uzyskałam wynik poniżej:
+
 <img src="Images/ai3.png" width = 800> 
+
 Później szybko przetestowałam każdą kategorię, dodając zdjęcia, które nie były użyte w trenowaniu. Wyniki, na 3 poniższych zdjęciach:
+
 <img src="Images/ai4.png" width = 800> 
+
 <img src="Images/ai5.png" width = 800> 
+
 <img src="Images/ai6.png" width = 800> 
+
 Uważam, że model radzi sobie bardzo dobrze z wykrywaniem perfum.
 Opublikowałam go i pobrałam url predykcyjne.
+
 <img src="Images/ai7.png" width = 800> 
+
 Projekt można dalej rozszerzać i użyć w Azure Cloud Shell lub też użyć lokalnie, np. pisząc kod w Pythonie. Na moje obecne potrzeby wystarczył Quick Test, który doskonale obrazuje 
 Azure Cloud Shell jest płatne, a ja wolę zostawić jak najwięcej pieniądzy na projekt.
 
