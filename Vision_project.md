@@ -34,6 +34,7 @@ Uzyskałam wynik poniżej:
 
 <img src="Images/ai3.png" width = 800> 
 
+### Testowanie
 Później szybko przetestowałam każdą kategorię, dodając zdjęcia, które nie były użyte w trenowaniu. Wyniki, na 3 poniższych zdjęciach:
 
 <img src="Images/ai4.png" width = 800> 
