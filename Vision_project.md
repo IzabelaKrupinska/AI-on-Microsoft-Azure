@@ -35,7 +35,6 @@ Opublikowałam go i pobrałam url predykcyjne.
 Projekt można dalej rozszerzać i użyć w Azure Cloud Shell lub też użyć lokalnie, np. pisząc kod w Pythonie.
 Azure Cloud Shell jest płatne, a ja wolę zostawić pieniądze na projekt.
 
-Aby, uzyskać dane trenujące należy napisać do mnie e-mail (286466@pw.edu.pl). Paczka danych jest zbyt duża, aby tutaj ją umieścić.
-Dane umieszczone w Images-Vision.
+Część danych trenujących została umieszczona w folderze Images/Vision. Aby, uzyskać wszystkie dane trenujące należy napisać do mnie e-mail (286466@pw.edu.pl).
 
     
