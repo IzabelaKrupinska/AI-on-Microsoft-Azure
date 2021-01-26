@@ -17,3 +17,8 @@ Machine learning tasks.
 9. You can deploy model as a service and test the deployed service.
 
 ## Create a Regression Model with Azure Machine Learning designer
+### Intro
+
+### Use cases
+
+### How to
